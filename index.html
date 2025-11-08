@@ -8,21 +8,21 @@
 </head>
 <body>
   <!-- Header -->
-<header>
-  <div class="container">
-    <h1>Galib</h1>
-    <nav id="navbar">
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-    <div class="menu-toggle" id="menu-toggle">☰</div>
-  </div>
-</header>
+  <header>
+    <div class="container">
+      <h1 class="logo">Galib</h1>
+      <nav id="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu-toggle" id="menu-toggle">☰</div>
+    </div>
+  </header>
 
   <!-- Hero Section -->
   <section id="home" class="hero">
@@ -88,5 +88,15 @@
   <footer>
     <p>© 2025 Galib. All Rights Reserved.</p>
   </footer>
+
+  <!-- JavaScript for mobile menu -->
+  <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navList = document.querySelector('nav ul');
+
+    menuToggle.addEventListener('click', () => {
+      navList.classList.toggle('show');
+    });
+  </script>
 </body>
 </html>
