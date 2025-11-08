@@ -273,7 +273,7 @@ footer {
   }
 }
 
-/* 🌿 WhatsApp Floating Button (Perfect Icon + Tooltip + Glow) */
+/* 🌿 WhatsApp Floating Button (Final Polished Version) */
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
@@ -285,18 +285,19 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
   text-decoration: none;
   z-index: 1000;
   animation: pulse 2.5s infinite;
-  transition: transform 0.3s ease, background-color 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-/* SVG icon styling */
+/* WhatsApp Icon inside button */
 .whatsapp-icon {
   width: 28px;
   height: 28px;
-  fill: white;
+  filter: brightness(0) invert(1);
+  object-fit: contain;
   transition: transform 0.3s ease;
 }
 
@@ -317,16 +318,16 @@ footer {
   box-shadow: 0 0 10px rgba(37, 211, 102, 0.3);
 }
 
-/* Show tooltip on hover */
+/* Show tooltip on hover (desktop only) */
 .whatsapp-float:hover .whatsapp-tooltip {
   opacity: 1;
   transform: translateY(0);
 }
 
-/* Hover + active effects */
+/* Hover effect */
 .whatsapp-float:hover {
   background-color: #1ebe5d;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .whatsapp-float:hover .whatsapp-icon {
@@ -344,4 +345,4 @@ footer {
   100% {
     box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
   }
-    }
+}
