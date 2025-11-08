@@ -39,19 +39,19 @@ It highlights my **skills, design works, and social connections** in an elegant 
 ## 📸 Social Media  
 
 <p align="center" style="background:#0d0d0d;padding:15px;border-radius:10px;">
-  <a href="https://instagram.com/muhamedgalib_" target="_blank" title="Instagram">
+  <a href="https://instagram.com/muhammedgalib_" target="_blank" title="Instagram">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" width="32" height="32" style="filter:invert(1);" alt="Instagram">
   </a> &nbsp;
-  <a href="https://pinterest.com/muhamedgalib_" target="_blank" title="Pinterest">
+  <a href="https://pinterest.com/muhammedgalib_" target="_blank" title="Pinterest">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg" width="32" height="32" style="filter:invert(1);" alt="Pinterest">
   </a> &nbsp;
-  <a href="https://behance.net/muhamedgalib_" target="_blank" title="Behance">
+  <a href="https://behance.net/muhammedgalib_" target="_blank" title="Behance">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg" width="32" height="32" style="filter:invert(1);" alt="Behance">
   </a> &nbsp;
-  <a href="https://t.me/muhamedgalib" target="_blank" title="Telegram">
+  <a href="https://t.me/muhammedgalib" target="_blank" title="Telegram">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" width="32" height="32" style="filter:invert(1);" alt="Telegram">
   </a> &nbsp;
-  <a href="https://dribbble.com/muhamedgalib" target="_blank" title="Dribbble">
+  <a href="https://dribbble.com/muhammedgalib" target="_blank" title="Dribbble">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dribbble.svg" width="32" height="32" style="filter:invert(1);" alt="Dribbble">
   </a>
 </p>
