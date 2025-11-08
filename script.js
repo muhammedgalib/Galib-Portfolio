@@ -1,30 +1,16 @@
-// Navbar toggle
+// Menu toggle
 const menu = document.getElementById("menu");
 const navList = document.getElementById("nav-list");
 menu.addEventListener("click", () => navList.classList.toggle("show"));
 
-// Fade-in effect
+// Scroll fade-in
 const observer = new IntersectionObserver(
   (entries) => entries.forEach((e) => e.isIntersecting && e.target.classList.add("visible")),
   { threshold: 0.2 }
 );
 document.querySelectorAll(".fade-in").forEach((el) => observer.observe(el));
 
-// Lightbox
-const lb = document.getElementById("lightbox");
-const lbImg = document.getElementById("lightbox-img");
-const lbCap = document.getElementById("caption");
-document.querySelectorAll(".zoomable").forEach((img) => {
-  img.addEventListener("click", () => {
-    lb.style.display = "block";
-    lbImg.src = img.src;
-    lbCap.textContent = img.alt;
-  });
-});
-document.querySelector(".close").onclick = () => (lb.style.display = "none");
-lb.onclick = (e) => e.target === lb && (lb.style.display = "none");
-
-// Tilt
+// Tilt animation
 document.querySelectorAll(".tilt").forEach((card) => {
   card.addEventListener("mousemove", (e) => {
     const rect = card.getBoundingClientRect();
@@ -40,13 +26,11 @@ const themeToggle = document.getElementById("theme-toggle");
 const body = document.body;
 if (localStorage.getItem("theme") === "dark") {
   body.classList.add("dark");
-  themeToggle.textContent = "🌙";
-} else {
   themeToggle.textContent = "☀️";
 }
 themeToggle.addEventListener("click", () => {
   body.classList.toggle("dark");
   const theme = body.classList.contains("dark") ? "dark" : "light";
-  themeToggle.textContent = theme === "dark" ? "🌙" : "☀️";
+  themeToggle.textContent = theme === "dark" ? "☀️" : "🌙";
   localStorage.setItem("theme", theme);
 });
