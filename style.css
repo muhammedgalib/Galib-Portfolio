@@ -463,3 +463,86 @@ footer {
 .project-card:hover img {
   transform: scale(1.08);
 }
+
+/* 🌿 WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: pulse 2.5s infinite;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.whatsapp-icon {
+  width: 28px;
+  height: 28px;
+  filter: brightness(0) invert(1);
+}
+.whatsapp-float:hover {
+  background: #1ebe5d;
+  transform: scale(1.1);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+/* 🌐 Social Section (white icons, theme glow) */
+.social-section {
+  background: #0f0f0f;
+  padding: 50px 0 40px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+.social-section h2 {
+  color: #00c4ff;
+  font-size: 1.6rem;
+  margin-bottom: 25px;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+}
+.social-icons a {
+  background: #1a1a1a;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 196, 255, 0.15);
+}
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+  background: #00c4ff;
+  box-shadow: 0 0 20px rgba(0, 196, 255, 0.6);
+  transform: scale(1.12);
+}
+.social-icons a:hover img {
+  filter: brightness(0) invert(0);
+  transform: rotate(8deg);
+}
