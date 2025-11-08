@@ -3,98 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Graphic Designer Portfolio</title>
+  <title>Galib | Graphic Designer</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <nav>
-      <h1 class="logo">Your Name</h1>
-      <ul class="nav-links">
-        <li><a href="#hero">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1 class="logo">Galib</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
-  <section id="hero">
-    <h2>Hello, I'm a Graphic Designer</h2>
-    <p>Creative. Passionate. Visionary.</p>
-    <div class="buttons">
-      <a href="#portfolio" class="btn">View Work</a>
-      <a href="#contact" class="btn secondary">Contact Me</a>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>About Me</h2>
-    <p>Write a short description about yourself, your creative journey, and your design philosophy.</p>
-  </section>
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-      <li>Adobe Photoshop</li>
-      <li>Adobe Illustrator</li>
-      <li>Figma</li>
-      <li>UI/UX Design</li>
-      <li>Branding</li>
-      <li>Logo Design</li>
-    </ul>
-  </section>
-
-  <section id="portfolio">
-    <h2>My Projects</h2>
-    <div class="gallery">
-      <div class="project">
-        <img src="https://via.placeholder.com/400x250/00bcd4/ffffff?text=Project+1" alt="Project 1">
-        <h3>Project Title 1</h3>
-        <p>Short project description goes here.</p>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x250/00bcd4/ffffff?text=Project+2" alt="Project 2">
-        <h3>Project Title 2</h3>
-        <p>Short project description goes here.</p>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x250/00bcd4/ffffff?text=Project+3" alt="Project 3">
-        <h3>Project Title 3</h3>
-        <p>Short project description goes here.</p>
-      </div>
-      <div class="project">
-        <img src="https://via.placeholder.com/400x250/00bcd4/ffffff?text=Project+4" alt="Project 4">
-        <h3>Project Title 4</h3>
-        <p>Short project description goes here.</p>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <h2>Hello, I'm <span>Galib</span></h2>
+      <h3>A Graphic Designer</h3>
+      <p>Creative • Passionate • Visionary</p>
+      <div class="buttons">
+        <a href="#portfolio" class="btn">View Work</a>
+        <a href="#contact" class="btn-outline">Contact Me</a>
       </div>
     </div>
   </section>
 
-  <section id="experience">
-    <h2>Experience</h2>
-    <div class="timeline">
-      <div class="job">
-        <h3>Company / Project Name</h3>
-        <p>Describe your role and achievements briefly.</p>
-      </div>
-      <div class="job">
-        <h3>Company / Project Name</h3>
-        <p>Describe your role and achievements briefly.</p>
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>
+        I'm a creative designer passionate about combining art, technology, and storytelling.
+        I focus on producing clean, visually engaging, and purposeful designs that connect with people.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>My Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Photoshop</div>
+        <div class="skill">Illustrator</div>
+        <div class="skill">UI/UX Design</div>
+        <div class="skill">Web Design</div>
+        <div class="skill">Branding</div>
+        <div class="skill">Canva</div>
       </div>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
-    <p>LinkedIn / Behance / Dribbble links here</p>
+  <!-- Portfolio Section -->
+  <section id="portfolio" class="section">
+    <div class="container">
+      <h2>Portfolio</h2>
+      <div class="portfolio-grid">
+        <div class="project">🎨 Project 1</div>
+        <div class="project">💻 Project 2</div>
+        <div class="project">📱 Project 3</div>
+      </div>
+    </div>
   </section>
 
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Interested in working together? Let's talk!</p>
+      <a href="mailto:your@email.com" class="btn">Email Me</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
   <footer>
-    <p>© 2025 Your Name. All Rights Reserved.</p>
+    <p>© 2025 Galib. All Rights Reserved.</p>
   </footer>
 </body>
 </html>
