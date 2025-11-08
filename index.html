@@ -27,7 +27,7 @@
   <!-- Hero Section -->
   <section id="home" class="hero fade-in">
     <div class="container hero-content">
-      <img src="profile.jpg" alt="Galib Photo" class="hero-img">
+      <img src="profile.jpg" alt="Galib Photo" class="hero-img" />
       <h2>Hello, I'm <span>Muhammed Galib</span></h2>
       <h3>Graphic Designer</h3>
       <p>Creative • Passionate • Visionary</p>
@@ -38,28 +38,27 @@
     </div>
   </section>
 
-  <!-- About Section -->
+  <!-- About -->
   <section id="about" class="section fade-in">
     <div class="container about-container">
       <div class="about-img">
-        <img src="profile.jpg" alt="Galib">
+        <img src="profile.jpg" alt="Galib" />
       </div>
       <div class="about-text">
         <h2>About Me</h2>
         <p>
-          I'm <strong>Muhammed Galib</strong>, a creative designer passionate about combining
-          art, technology, and storytelling. I specialize in producing clean, visually engaging,
-          and purposeful designs that connect with people.
+          I'm <strong>Muhammed Galib</strong>, a creative designer passionate about
+          combining art, technology, and storytelling.
         </p>
         <p>
-          I believe in creating visuals that inspire and communicate deeply. My design philosophy
-          blends emotion, clarity, and modernity.
+          I focus on clean, purposeful visuals that connect with people and
+          communicate emotion and clarity.
         </p>
       </div>
     </div>
   </section>
 
-  <!-- Skills Section -->
+  <!-- Skills -->
   <section id="skills" class="section fade-in">
     <div class="container">
       <h2>My Skills</h2>
@@ -73,59 +72,108 @@
     </div>
   </section>
 
-  <!-- Portfolio Section -->
-<section id="portfolio" class="section fade-in">
-  <div class="container">
-    <h2>My Projects</h2>
-    <div class="portfolio-gallery">
-      <div class="project-card">
-        <img src="project1.jpg" alt="Brand Design" class="zoomable">
-        <h3>Brand Identity Design</h3>
-      </div>
-      <div class="project-card">
-        <img src="project2.jpg" alt="Poster Design" class="zoomable">
-        <h3>Poster Design</h3>
-      </div>
-      <div class="project-card">
-        <img src="project3.jpg" alt="UI Layout" class="zoomable">
-        <h3>Website UI Design</h3>
-      </div>
-      <div class="project-card">
-        <img src="project4.jpg" alt="Book Cover" class="zoomable">
-        <h3>Book Cover Design</h3>
+  <!-- Portfolio -->
+  <section id="portfolio" class="section fade-in">
+    <div class="container">
+      <h2>My Projects</h2>
+      <div class="portfolio-gallery">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Brand Design" class="zoomable" />
+          <h3>Brand Identity Design</h3>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Poster Design" class="zoomable" />
+          <h3>Poster Design</h3>
+        </div>
+        <div class="project-card">
+          <img src="project3.jpg" alt="Website UI Design" class="zoomable" />
+          <h3>Website UI Design</h3>
+        </div>
+        <div class="project-card">
+          <img src="project4.jpg" alt="Book Cover Design" class="zoomable" />
+          <h3>Book Cover Design</h3>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- 🔍 Lightbox Modal -->
-<div id="lightbox" class="lightbox">
-  <span class="close">&times;</span>
-  <img class="lightbox-content" id="lightbox-img">
-  <div id="caption"></div>
-</div>
-  
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-content" id="lightbox-img" />
+    <div id="caption"></div>
+  </div>
+
+  <!-- Contact -->
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2>Contact</h2>
+      <p>Let’s collaborate — feel free to reach out anytime.</p>
+      <a href="mailto:yourname@gmail.com" class="btn">Email Me</a>
+    </div>
+  </section>
+
+  <!-- 🌐 Social Media -->
+  <section id="social" class="section social-section fade-in">
+    <div class="container">
+      <h2>Follow Me</h2>
+      <div class="social-icons">
+        <a href="https://instagram.com/yourusername" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" />
+        </a>
+        <a href="https://pinterest.com/yourusername" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg" alt="Pinterest" />
+        </a>
+        <a href="https://behance.net/yourusername" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg" alt="Behance" />
+        </a>
+        <a href="https://t.me/yourusername" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="Telegram" />
+        </a>
+        <a href="https://dribbble.com/yourusername" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dribbble.svg" alt="Dribbble" />
+        </a>
+      </div>
+    </div>
+  </section>
+
   <!-- Footer -->
   <footer>
     <p>© 2025 Muhammed Galib. All Rights Reserved.</p>
   </footer>
 
-  <!-- Mobile Menu Script -->
-  <script>
-    const menuToggle = document.getElementById('menu-toggle');
-    const navList = document.querySelector('nav ul');
-    menuToggle.addEventListener('click', () => navList.classList.toggle('show'));
-  </script>
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/91XXXXXXXXXX" class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" alt="WhatsApp" class="whatsapp-icon" />
+  </a>
 
-  <!-- Scroll Animation Script -->
+  <!-- Scripts -->
   <script>
-    const fades = document.querySelectorAll('.fade-in');
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) entry.target.classList.add('visible');
-      });
-    }, { threshold: 0.2 });
-    fades.forEach(el => observer.observe(el));
+    document.getElementById("menu-toggle").onclick = () =>
+      document.querySelector("nav ul").classList.toggle("show");
+
+    const fades = document.querySelectorAll(".fade-in");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => e.isIntersecting && e.target.classList.add("visible"));
+      },
+      { threshold: 0.2 }
+    );
+    fades.forEach((el) => observer.observe(el));
+
+    // Lightbox
+    const lb = document.getElementById("lightbox"),
+      lbImg = document.getElementById("lightbox-img"),
+      cap = document.getElementById("caption");
+    document.querySelectorAll(".zoomable").forEach((img) =>
+      img.addEventListener("click", () => {
+        lb.style.display = "block";
+        lbImg.src = img.src;
+        cap.textContent = img.alt;
+      })
+    );
+    document.querySelector(".close").onclick = () => (lb.style.display = "none");
+    lb.onclick = (e) => e.target === lb && (lb.style.display = "none");
   </script>
 </body>
 </html>
