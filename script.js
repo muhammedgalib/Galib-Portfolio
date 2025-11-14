@@ -1,7 +1,6 @@
-// Mobile menu toggle
+// Mobile menu
 const menuToggle = document.getElementById("menu-toggle");
 const navList = document.getElementById("nav-list");
-
 menuToggle.addEventListener("click", () => {
   navList.classList.toggle("show");
 });
@@ -24,18 +23,12 @@ themeToggle.addEventListener("click", () => {
 
 // Scroll animations
 const revealElements = document.querySelectorAll(".fade-in, .slide-up");
-
 function revealOnScroll() {
   const trigger = window.innerHeight * 0.85;
-
-  revealElements.forEach((el) => {
-    const rect = el.getBoundingClientRect().top;
-    if (rect < trigger) {
-      el.classList.add("show");
-    }
+  revealElements.forEach(el => {
+    if (el.getBoundingClientRect().top < trigger) el.classList.add("show");
   });
 }
-
 window.addEventListener("scroll", revealOnScroll);
 window.addEventListener("load", revealOnScroll);
 
@@ -60,9 +53,9 @@ function closeModal() {
 modalClose.addEventListener("click", closeModal);
 modalBackdrop.addEventListener("click", closeModal);
 
-// Tilt hover
+// Tilt animation
 document.querySelectorAll(".tilt").forEach(card => {
-  card.addEventListener("mousemove", (e) => {
+  card.addEventListener("mousemove", e => {
     const rect = card.getBoundingClientRect();
     const x = (e.clientX - rect.left) / rect.width - 0.5;
     const y = (e.clientY - rect.top) / rect.height - 0.5;
