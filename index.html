@@ -3,15 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muhammed Galib — Portfolio</title>
+  <title>Muhammed Galib — Premium Portfolio</title>
+
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="light">
 
+  <!-- Animated Gradient Background -->
+  <div class="animated-bg"></div>
+
   <!-- HEADER -->
-  <header class="site-header">
+  <header class="site-header glass">
     <div class="container header-row">
 
       <div class="brand">Muhammed <span>Galib</span></div>
@@ -22,7 +27,6 @@
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#resume">Resume</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -35,29 +39,28 @@
     </div>
   </header>
 
-  <!-- HERO SECTION -->
+  <!-- HERO -->
   <section id="home" class="hero section fade-in">
-    <div class="hero-aurora"></div>
-
     <div class="container hero-grid">
 
-      <div class="hero-card glass fade-in">
-        <p class="eyebrow">Hi, I’m</p>
+      <div class="hero-content">
+        <p class="hero-hi">Hello! I'm</p>
 
         <h1 class="hero-title">Muhammed <span>Galib</span></h1>
-        <p class="hero-role">Graphic Designer — Dynamic & Creative Visual Thinker</p>
+
+        <p class="hero-role">Creative Graphic Designer 🎨</p>
 
         <p class="hero-copy">
-          I create branding, UI/UX, posters, and high-impact visual design that communicates clearly and professionally.
+          A designer passionate about branding, UI/UX, digital artwork, poster designs, and meaningful visuals 
+          that tell powerful stories and elevate brands.
         </p>
 
-        <div class="hero-ctas">
+        <div class="hero-buttons">
           <a class="btn primary" href="cv.pdf" download>⬇ Download CV</a>
-          <a class="btn ghost" href="#portfolio">View Work</a>
+          <a class="btn outline" href="#portfolio">View Portfolio</a>
         </div>
 
-        <!-- SOCIAL ICONS -->
-        <div class="hero-social">
+        <div class="social-links">
           <a href="https://instagram.com/muhammedgalib_" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg"></a>
           <a href="https://pinterest.com/muhammedgalib_" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg"></a>
           <a href="https://www.behance.net/muhammedgalib_" target="_blank"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg"></a>
@@ -66,65 +69,64 @@
         </div>
       </div>
 
-      <!-- PROFILE IMAGE -->
-      <div class="hero-art tilt fade-in">
-        <div class="avatar-wrap">
-          <img src="profile.png" class="avatar" alt="Profile Image">
-          <span class="avatar-ring"></span>
+      <!-- Profile -->
+      <div class="hero-image tilt">
+        <div class="avatar-wrap premium-ring">
+          <img src="profile.png" class="avatar" alt="Profile">
         </div>
       </div>
 
     </div>
   </section>
 
-  <!-- ABOUT SECTION -->
+  <!-- ABOUT -->
   <section id="about" class="section fade-in">
     <div class="container about-grid">
 
-      <div class="about-card glass slide-up">
-        <h2 class="section-title">About Me</h2>
-        <p>
-          I design with purpose, creativity, and attention to detail.  
-          My work focuses on branding, posters, UI/UX, layout design,  
-          and digital content creation with strong visual communication.
-        </p>
+      <div class="about-img-frame tilt">
+        <img src="profile.png" alt="About Image">
       </div>
 
-      <div class="about-image glass slide-up">
-        <img src="profile.png" alt="About Image">
+      <div class="about-text glass">
+        <h2 class="section-title">About Me</h2>
+        <p>
+          I specialize in creating visually compelling content including logos, brand identities, posters,
+          UI/UX interfaces, and digital artworks.  
+          My design approach focuses on clarity, creativity, and strong visual balance.
+        </p>
       </div>
 
     </div>
   </section>
 
   <!-- SKILLS -->
-  <section id="skills" class="section slide-up">
+  <section id="skills" class="section fade-in">
     <div class="container">
       <h2 class="section-title">Skills</h2>
 
       <div class="skills-grid">
 
-        <div class="skill glass fade-in">
+        <div class="skill glass tilt">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobephotoshop.svg">
           <span>Photoshop</span>
         </div>
 
-        <div class="skill glass fade-in">
+        <div class="skill glass tilt">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobeillustrator.svg">
           <span>Illustrator</span>
         </div>
 
-        <div class="skill glass fade-in">
+        <div class="skill glass tilt">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobepremierepro.svg">
           <span>Premiere Pro</span>
         </div>
 
-        <div class="skill glass fade-in">
+        <div class="skill glass tilt">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/figma.svg">
           <span>UI/UX Design</span>
         </div>
 
-        <div class="skill glass fade-in">
+        <div class="skill glass tilt">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobecreativecloud.svg">
           <span>Branding</span>
         </div>
@@ -140,20 +142,20 @@
 
       <div class="portfolio-grid">
 
-        <article class="card glass tilt slide-up">
+        <article class="pf-card glass tilt">
           <button class="media-btn" data-src="project1.jpg">
             <img src="project1.jpg">
           </button>
-          <h3>Brand Identity</h3>
-          <p>Full Visual Identity System</p>
+          <h3>Brand Identity Design</h3>
+          <p>Complete visual identity package</p>
         </article>
 
-        <article class="card glass tilt slide-up">
+        <article class="pf-card glass tilt">
           <button class="media-btn" data-src="project2.jpg">
             <img src="project2.jpg">
           </button>
           <h3>Seminar Poster</h3>
-          <p>Call for Papers Poster Design</p>
+          <p>Academic poster design</p>
         </article>
 
       </div>
@@ -161,33 +163,35 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="section slide-up">
+  <section id="contact" class="section fade-in">
     <div class="container">
-      <h2 class="section-title">Let’s Talk</h2>
-      <p class="muted">You can message me on WhatsApp or Email.</p>
+      <h2 class="section-title">Let's Talk</h2>
+      <p class="muted">
+        You can contact me anytime through WhatsApp or Email.
+      </p>
 
-      <div class="contact-actions">
-        <a class="btn primary" href="https://wa.me/918089539792" target="_blank">WhatsApp</a>
-        <a class="btn ghost" href="mailto:muhammedgalib792@gmail.com">Email Me</a>
+      <div class="contact-buttons">
+        <a href="https://wa.me/918089539792" class="btn primary" target="_blank">WhatsApp</a>
+        <a href="mailto:muhammedgalib792@gmail.com" class="btn outline">Email Me</a>
       </div>
     </div>
   </section>
 
-  <footer class="site-footer">
+  <footer class="footer">
     © 2025 Muhammed Galib — All Rights Reserved
   </footer>
 
-  <!-- WHATSAPP FLOAT BUTTON -->
-  <a class="whatsapp-fab" href="https://wa.me/918089539792" target="_blank">
+  <!-- WhatsApp FAB -->
+  <a class="fab" href="https://wa.me/918089539792" target="_blank">
     <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg">
   </a>
 
-  <!-- MODAL -->
+  <!-- Modal -->
   <div id="media-modal" class="media-modal">
-    <div id="modal-backdrop" class="modal-backdrop"></div>
-    <div class="modal-content">
-      <button id="modal-close" class="modal-close">✕</button>
-      <img id="modal-image" />
+    <div class="backdrop"></div>
+    <div class="modal-box">
+      <button id="modal-close" class="close-btn">✕</button>
+      <img id="modal-image">
     </div>
   </div>
 
