@@ -41,3 +41,21 @@ function closeModal() {
 
 modalClose.addEventListener("click", closeModal);
 modalBackdrop.addEventListener("click", closeModal);
+
+// Scroll Reveal Animation
+const revealElements = document.querySelectorAll(".fade-in, .slide-up");
+
+function revealOnScroll() {
+  const trigger = window.innerHeight * 0.85;
+
+  revealElements.forEach((el) => {
+    const rect = el.getBoundingClientRect().top;
+
+    if (rect < trigger) {
+      el.classList.add("show");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
