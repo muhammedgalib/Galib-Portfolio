@@ -52,3 +52,10 @@ document.querySelectorAll(".project").forEach(item=>{
 
 closeBtn.addEventListener("click",()=>modal.style.display="none");
 modal.addEventListener("click",(e)=>{ if(e.target === modal) modal.style.display="none"; });
+
+// Lightbox customization
+lightbox.option({
+    fadeDuration: 300,
+    resizeDuration: 200,
+    wrapAround: true
+});
