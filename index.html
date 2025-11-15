@@ -2,18 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Muhammed Galib | Graphic Designer</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
-
 <body class="light">
-
-  <!-- HEADER -->
+  <!-- Header -->
   <header>
     <div class="container nav-wrap">
       <div class="brand">MG</div>
-
       <nav>
         <ul id="nav-list">
           <li><a href="#home">Home</a></li>
@@ -24,259 +23,160 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
-      <button id="theme-toggle" class="theme-toggle">🌙</button>
-      <button id="menu" class="menu">☰</button>
+      <button id="theme-toggle" class="theme-toggle" title="Toggle theme">🌙</button>
+      <button id="menu" class="menu" aria-label="Open menu">☰</button>
     </div>
   </header>
 
-
-  <!-- HERO -->
+  <!-- Hero -->
   <section id="home" class="hero section fade-in">
     <div class="aurora-bg"></div>
-
     <div class="container hero-grid">
-
       <div class="hero-text">
         <p class="eyebrow">Hi, I’m</p>
         <h1>Muhammed <span>Galib</span></h1>
-
         <h2 class="subtitle">Graphic Designer</h2>
-
         <p class="lead">
-          Dynamic & creative designer crafting visual experiences through
-          branding, UI/UX and motion design.
+          I turn ideas into bold, colorful visuals — brand identities, posters, and modern UI.
         </p>
-
         <div class="cta">
           <a href="cv.pdf" class="btn primary" download>⬇ Download CV</a>
           <a href="#portfolio" class="btn ghost">View My Work</a>
         </div>
 
         <div class="hero-social">
-
-          <a href="https://instagram.com/muhammedgalib_" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg">
+          <a href="https://instagram.com/muhammedgalib_" target="_blank" aria-label="Instagram">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="">
           </a>
-
-          <a href="https://pinterest.com/muhammedgalib_" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg">
+          <a href="https://pinterest.com/muhammedgalib_" target="_blank" aria-label="Pinterest">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/pinterest.svg" alt="">
           </a>
-
-          <a href="https://www.behance.net/muhammedgalib_" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg">
+          <a href="https://www.behance.net/muhammedgalib_" target="_blank" aria-label="Behance">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/behance.svg" alt="">
           </a>
-
-          <a href="https://t.me/muhammedgalib" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg">
+          <a href="https://t.me/muhammedgalib" target="_blank" aria-label="Telegram">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/telegram.svg" alt="">
           </a>
-
-          <a href="https://dribbble.com/muhammedgalib" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dribbble.svg">
+          <a href="https://dribbble.com/muhammedgalib" target="_blank" aria-label="Dribbble">
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/dribbble.svg" alt="">
           </a>
-
         </div>
-
       </div>
 
       <div class="hero-art tilt">
-        <img src="profile.jpg" class="avatar" alt="Muhammed Galib">
+        <img src="profile.jpg"
+             onerror="this.onerror=null;this.src='https://via.placeholder.com/520x520?text=Profile+Image';"
+             class="avatar" alt="Muhammed Galib portrait">
       </div>
-
     </div>
   </section>
 
-
-
-  <!-- ABOUT -->
+  <!-- About -->
   <section id="about" class="section fade-in">
     <div class="container about-grid">
-
       <div class="about-img tilt">
-        <img src="profile.jpg" alt="Muhammed Galib portrait">
+        <img src="profile.jpg"
+             onerror="this.onerror=null;this.src='https://via.placeholder.com/900x600?text=About+Image';"
+             alt="About image">
       </div>
-
       <div class="about-text">
         <h3 class="section-title">About Me</h3>
-
-        <p>
-          I'm a visual designer who creates meaningful, aesthetic and modern
-          digital designs. My work focuses on connecting emotions with strong
-          visual identity.
-        </p>
-
+        <p>I love neon color, contrast, and clarity. My process blends concept + craft, so every design communicates clearly and stands out.</p>
         <div class="about-badges">
-          <span>Branding</span>
-          <span>UI/UX</span>
-          <span>Motion</span>
-          <span>Creative Direction</span>
+          <span>Branding</span><span>UI/UX</span><span>Motion</span><span>Creative Direction</span>
         </div>
       </div>
-
     </div>
   </section>
 
-
-
-  <!-- SKILLS -->
+  <!-- Skills -->
   <section id="skills" class="section fade-in">
     <div class="container">
-
       <h3 class="section-title">Skills</h3>
-
       <div class="skills-grid">
-
-        <div class="skill">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobephotoshop.svg">
-          <span>Photoshop</span>
-        </div>
-
-        <div class="skill">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobeillustrator.svg">
-          <span>Illustrator</span>
-        </div>
-
-        <div class="skill">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobepremierepro.svg">
-          <span>Premiere Pro</span>
-        </div>
-
-        <div class="skill">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/figma.svg">
-          <span>UI/UX Design</span>
-        </div>
-
-        <div class="skill">
-          <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobecreativecloud.svg">
-          <span>Branding</span>
-        </div>
-
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobephotoshop.svg" alt=""><span>Photoshop</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobeillustrator.svg" alt=""><span>Illustrator</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobepremierepro.svg" alt=""><span>Premiere Pro</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/figma.svg" alt=""><span>UI/UX Design</span></div>
+        <div class="skill"><img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/adobecreativecloud.svg" alt=""><span>Branding</span></div>
       </div>
     </div>
   </section>
 
-
-
-  <!-- PORTFOLIO -->
+  <!-- Portfolio -->
   <section id="portfolio" class="section fade-in">
     <div class="container">
-
       <h3 class="section-title">My Projects</h3>
-
       <div class="portfolio-grid">
-
         <div class="card tilt">
-          <img src="project1.jpg">
-          <div class="card-info">
-            <h4>Brand Identity</h4>
-            <p>Logo System</p>
-          </div>
+          <img src="project1.jpg" onerror="this.onerror=null;this.src='https://via.placeholder.com/1000x700?text=Project+1';" alt="Project 1">
+          <div class="card-info"><h4>Brand Identity</h4><p>Logo System</p></div>
         </div>
-
         <div class="card tilt">
-          <img src="project2.jpg">
-          <div class="card-info">
-            <h4>Poster Design</h4>
-            <p>Creative Artwork</p>
-          </div>
+          <img src="project2.jpg" onerror="this.onerror=null;this.src='https://via.placeholder.com/1000x700?text=Project+2';" alt="Project 2">
+          <div class="card-info"><h4>Poster Design</h4><p>Creative Artwork</p></div>
         </div>
-
         <div class="card tilt">
-          <img src="project3.jpg">
-          <div class="card-info">
-            <h4>UI/UX Layout</h4>
-            <p>Modern UI</p>
-          </div>
+          <img src="project3.jpg" onerror="this.onerror=null;this.src='https://via.placeholder.com/1000x700?text=Project+3';" alt="Project 3">
+          <div class="card-info"><h4>UI/UX Layout</h4><p>Modern UI</p></div>
         </div>
-
         <div class="card tilt">
-          <img src="project4.jpg">
-          <div class="card-info">
-            <h4>Branding Concept</h4>
-            <p>Visual System</p>
-          </div>
+          <img src="project4.jpg" onerror="this.onerror=null;this.src='https://via.placeholder.com/1000x700?text=Project+4';" alt="Project 4">
+          <div class="card-info"><h4>Packaging</h4><p>Concept</p></div>
         </div>
-
       </div>
-
     </div>
   </section>
 
-
-
-  <!-- RESUME -->
+  <!-- Resume -->
   <section id="resume" class="section fade-in">
     <div class="container">
-
       <h3 class="section-title">Resume</h3>
-
       <div class="timeline">
-
         <div class="t-item">
           <div class="t-dot"></div>
-
           <div class="t-body">
             <h4>Freelance Designer</h4>
             <p class="muted">2020 – Present</p>
-            <p>Branding, posters, UI/UX & motion works for global clients.</p>
+            <p>Branding, posters, and UI/UX for clients worldwide.</p>
           </div>
         </div>
-
         <div class="t-item">
           <div class="t-dot"></div>
-
           <div class="t-body">
             <h4>B.A. Visual Communication</h4>
             <p class="muted">2016 – 2019</p>
-            <p>Built foundation in design, color, typography & storytelling.</p>
+            <p>Studied design systems, color psychology, and storytelling.</p>
           </div>
         </div>
-
       </div>
-
       <div class="resume-cta">
         <a href="cv.pdf" class="btn primary" download>⬇ Download CV</a>
+        <a class="btn ghost" href="mailto:muhammedgalib792@gmail.com">Email Me</a>
       </div>
-
     </div>
   </section>
 
-
-
-  <!-- CONTACT -->
+  <!-- Contact -->
   <section id="contact" class="section fade-in">
     <div class="container">
-
       <h3 class="section-title">Contact</h3>
-
-      <p class="contact-lead">
-        Let’s work together! I’m always ready for new creative projects.
-      </p>
-
+      <p class="contact-lead">Let’s collaborate! Ping me on WhatsApp or Email.</p>
       <div class="contact-actions">
-        <a href="https://wa.me/918089539792" class="btn primary" target="_blank">WhatsApp Me</a>
+        <a href="https://wa.me/918089539792" class="btn primary" target="_blank" rel="noopener">WhatsApp Me</a>
         <a href="mailto:muhammedgalib792@gmail.com" class="btn ghost">muhammedgalib792@gmail.com</a>
       </div>
-
     </div>
   </section>
 
+  <!-- Footer -->
+  <footer><p>© 2025 Muhammed Galib. All Rights Reserved.</p></footer>
 
-
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2025 Muhammed Galib. All Rights Reserved.</p>
-  </footer>
-
-
-  <!-- Float WhatsApp -->
-  <a href="https://wa.me/918089539792" class="whatsapp-float" target="_blank">
-    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" class="whatsapp-icon">
+  <!-- Floating WhatsApp -->
+  <a href="https://wa.me/918089539792" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp chat">
+    <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg" class="whatsapp-icon" alt="">
   </a>
 
-
-  <!-- JS -->
   <script src="script.js"></script>
-
 </body>
 </html>
