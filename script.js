@@ -66,6 +66,6 @@ themeToggle.addEventListener("click", () => {
 
   themeToggle.textContent = isDark ? "☀️" : "🌙";
 
-  // Save choice
+  // Save mode to browser
   localStorage.setItem("theme", isDark ? "dark" : "light");
-});
+}); 🕯️
